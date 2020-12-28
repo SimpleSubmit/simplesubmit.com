@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html amp lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+    {% include htmlheader.html %}
+
+  <body>
+    {{ content }}
+
+{% if true or jekyll.environment == 'production' and site.google_tag_manager %}
+{% include google-tag-manager.html %}
+{% endif %}
+  </body>
+</html>
