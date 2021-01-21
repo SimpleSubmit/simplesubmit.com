@@ -7,6 +7,9 @@ url: "https://SimpleSubmit.com"
 twitter_username: SimpleSubmitCom
 github_username:  SimpleSubmit
 
+
+highlighter: rouge
+
 # Build settings
 theme: minima
 plugins:
